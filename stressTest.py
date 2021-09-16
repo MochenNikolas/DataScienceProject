@@ -62,9 +62,6 @@ class stressTest(object):
         print("error num:", ERROR_NUM)
 
 
-    
-
-
 if __name__ == '__main__':
     test_url = 'https://us-central1-alpine-province-325707.cloudfunctions.net/function-2'
 
