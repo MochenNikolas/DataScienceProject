@@ -58,7 +58,7 @@ class stressTest(object):
 
 
 if __name__ == '__main__':
-    test_url = 'https://us-central1-alpine-province-325707.cloudfunctions.net/knn'
+    test_url = 'http://1.15.152.80:5000/knn'
 
     THREAD_NUM = 50 # the num of pthreads
     ONE_WORKER_NUM = 5 #the loop times of each pthread
