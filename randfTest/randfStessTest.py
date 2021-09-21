@@ -58,10 +58,10 @@ class stressTest(object):
 
 
 if __name__ == '__main__':
-    test_url = 'http://1.15.152.80:5000/knn'
+    test_url = 'https://us-central1-alpine-province-325707.cloudfunctions.net/randf'
 
-    THREAD_NUM = 500 # the num of pthrea
-    ONE_WORKER_NUM = 50 #the loop times of each pthread
+    THREAD_NUM = 500 # the num of pthreads
+    ONE_WORKER_NUM = 10 #the loop times of each pthread
     LOOP_SLEEP = 0.1 #the gap between two request(s)
     ERROR_NUM = 0 #the num of error
 

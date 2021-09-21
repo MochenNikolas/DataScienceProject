@@ -60,9 +60,9 @@ class stressTest(object):
 if __name__ == '__main__':
     test_url = 'https://us-central1-alpine-province-325707.cloudfunctions.net/knn'
 
-    THREAD_NUM = 50 # the num of pthreads
-    ONE_WORKER_NUM = 5 #the loop times of each pthread
-    LOOP_SLEEP = 0 #the gap between two request(s)
+    THREAD_NUM = 500 # the num of pthreads
+    ONE_WORKER_NUM = 50 #the loop times of each pthread
+    LOOP_SLEEP = 0.1 #the gap between two request(s)
     ERROR_NUM = 0 #the num of error
 
     obj = stressTest(test_url)
